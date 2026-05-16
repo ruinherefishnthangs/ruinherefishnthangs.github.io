@@ -353,7 +353,10 @@ function googleTranslateElementInit(){
     <li><a href="#sandwiches">Sandwiches</a></li>
     <li><a href="#contact">Contact</a></li>
   </ul>
-  <span class="nav-phone"><span class="phone-wrap"><a href="tel:3863078394">386.307.8394</a><span class="copy-btn" onclick="copyPhone(this)" title="Copy number">⧉</span></span></span>
+  <div style="display:flex;align-items:center;gap:1.2rem;">
+    <a href="#catering" style="font-size:0.75rem;letter-spacing:0.2em;text-transform:uppercase;color:var(--gold);text-decoration:none;font-family:'Oswald',sans-serif;border:1px solid rgba(201,168,76,0.4);padding:4px 10px;border-radius:4px;">Catering · Events</a>
+    <span class="nav-phone"><span class="phone-wrap"><a href="tel:3863078394">386.307.8394</a><span class="copy-btn" onclick="copyPhone(this)" title="Copy number">⧉</span></span></span>
+  </div>
 </nav>
 
 <!-- HERO -->
@@ -584,6 +587,16 @@ function googleTranslateElementInit(){
   </div>
 </div>
 
+<!-- CATERING & EVENTS -->
+<div id="catering" style="background:var(--crimson-deep);border-top:2px solid rgba(201,168,76,0.4);border-bottom:2px solid rgba(201,168,76,0.4);padding:3rem 2rem;text-align:center;">
+  <p style="font-family:'Oswald',sans-serif;font-size:0.7rem;letter-spacing:0.5em;text-transform:uppercase;color:rgba(201,168,76,0.6);margin-bottom:0.5rem;">Available For</p>
+  <h2 style="font-family:'Playfair Display',serif;font-size:clamp(2rem,5vw,3rem);color:var(--white);margin-bottom:0.75rem;">Catering <span style="color:var(--gold);">&</span> Events</h2>
+  <div style="width:60px;height:2px;background:var(--gold);margin:0 auto 1.5rem;"></div>
+  <p style="font-family:'Oswald',sans-serif;font-size:1rem;color:rgba(255,255,255,0.7);letter-spacing:0.1em;margin-bottom:0.5rem;">Birthdays · Cookouts · Corporate · Private Events</p>
+  <p style="font-family:'Oswald',sans-serif;font-size:0.85rem;color:rgba(255,255,255,0.4);letter-spacing:0.1em;margin-bottom:2rem;">I Got The Best Fish -N- Thee Universe</p>
+  <a href="tel:3863078394" style="display:inline-block;font-family:'Oswald',sans-serif;font-size:0.9rem;letter-spacing:0.25em;text-transform:uppercase;padding:12px 32px;background:var(--crimson);border:2px solid rgba(201,168,76,0.5);color:var(--gold);text-decoration:none;border-radius:4px;">📞 Call To Book · 386.307.8394</a>
+</div>
+
 <!-- PAYMENT STRIP -->
 <div class="payment-strip">
   <div class="payment-inner">
@@ -676,7 +689,7 @@ function googleTranslateElementInit(){
 <!-- FOOTER -->
 <footer>
   <div class="footer-logo">Ru In Here Fish n Thangs</div>
-  <p class="footer-tagline">Miami Made · Real Flavor · No Shortcuts · Real Ingredients · Real Good</p>
+  <p class="footer-tagline">Miami Made · Real Flavor · No Shortcuts · Real Ingredients · Real Good · Catering & Events</p>
 </footer>
 
 <script>
